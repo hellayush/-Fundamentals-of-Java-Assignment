@@ -1,0 +1,35 @@
+ Q 1  -  What is Programming language ?
+
+ANS  -  A programming language is a set of rules and syntax used to write instructions that a computer can understand and execute to perform tasks or solve problems.
+
+Q 2 -  Why do we need a programming language ?
+
+ANS -  we need programming languages to communicate instructions to computers effectively, enabling us to develop software, automate tasks, and solve complex problems efficiently.
+
+Q3 -  what are the features of Java ?
+
+ANS  - * Platform Independence: Java programs can run on any device or operating system with the Java Virtual Machine (JVM) installed, making it highly portable.
+
+       * Object-Oriented: Java follows an object-oriented programming (OOP) paradigm, allowing for modular and reusable code through classes and objects.
+
+       *  Automatic Memory Management: Java uses automatic garbage collection, freeing developers from managing memory allocation and deallocation manually.
+
+       * Rich Standard Library: Java comes with a comprehensive standard library (Java API) providing ready-to-use classes and methods for various tasks, from networking to GUI development.
+
+       * Strongly Typed: Java is a statically typed language, meaning variables must be declared with their data types, which enhances code reliability and performance.
+
+       * Multi-threading Support: Java supports concurrent programming with built-in features for creating and managing multiple threads, facilitating efficient utilization of system resources.
+
+Q 4 -  What is an 'object ?
+
+ANS  - an object is a fundamental unit of programming that represents a real-world entity or concept. It's an instance of a class, which serves as a blueprint defining the properties (attributes) and behaviors (methods) that objects of that type can exhibit .
+
+Q 5 - What is a class ?
+
+ANS -   a class is a blueprint or template that defines the structure and behavior of objects. It serves as a blueprint for creating objects, specifying what properties (attributes) and behaviors (methods) objects of that type will have.
+
+Q6 - Explain about the main() method in Java?
+
+ANS - In Java, the main() method is a special method that serves as the entry point for a Java application. When you run a Java program, the Java Virtual Machine (JVM) starts executing the code from the main() method.
+like - public static void main(String[] args){} ;
+.
