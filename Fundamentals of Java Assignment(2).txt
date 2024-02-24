@@ -1,0 +1,90 @@
+Q1 - What is statically typed and dynamically typed Programming Language ?
+
+ANS - Statically Typed Programming Language:
+
+  * In statically typed languages, variable types are determined at compile time.
+  * Variables must be explicitly declared with their data types before they can be used. 
+  * The compiler checks the types of variables and expressions at compile time to ensure type safety.
+  * Examples of statically typed languages include Java, C, C++, and Swift.
+
+
+Dynamically Typed Programming Language:
+
+  * In dynamically typed languages, variable types are determined at runtime.
+  * Variables can be assigned values of any type without explicit type declarations.
+  * Type checking is performed at runtime, which means errors related to type mismatches may not be caught until runtime.
+  * Examples of dynamically typed languages include Python, JavaScript, Ruby, and PHP. 
+
+
+Q2 - What is the variable in the java ? 
+
+ANS - a variable is a named storage location in the computer's memory where data can be stored and manipulated during program execution. Variables have a data type that determines what kind of data they can hold and what operations can be performed on them.
+eg - int age ;  ,  int age = 20; .
+
+Q3 - How To Assign a Value To Variable ?
+
+ANS - * Declare the Variable: If the variable doesn't exist yet, you need to declare it first. You specify the data type followed by the variable name.
+      * Assign a Value: Once the variable is declared, you can assign a value to it using the assignment operator (=).
+    
+Q4 - What are Primitive data types in java ?  
+
+ANS - primitive data types are the most basic data types built into the language. They represent simple values and are used to store numeric, character, and boolean data. There are eight primitive data types in Java:
+
+ * byte: 8-bit integer type used to store small numbers.
+ * short: 16-bit integer type used to store relatively small integers.
+ * int: 32-bit integer type used to store integer values.
+ * long: 64-bit integer type used to store large integer values.
+ * float: 32-bit floating-point type used to store decimal numbers with single precision.
+ * double: 64-bit floating-point type used to store decimal numbers with double precision.
+ * char: 16-bit Unicode character type used to store single characters.
+ * boolean: Represents a true or false value.
+
+Q5 - What are the identifiers in java ?
+
+ANS -  identifiers are names given to various program elements, such as classes, variables, methods, and labels. These names serve as references to these elements within the program's code.
+
+Q6 - List the  Operators in java ?
+
+ANS -   operators are symbols that perform operations on operands (variables, values, or expressions).
+
+ *  Arithmetic Operators
+ *  Assignment Operators
+ *  Comparison Operators
+ *  Logical Operators
+ *  Bitwise Operators
+ *  Unary Operators
+ *  Conditional Operator
+
+Q7 - Explain about decrement and incremnet operators and give an examples ? 
+ 
+ANS - Increment (++):
+
+When used as a postfix operator (e.g., variable++), the current value of the variable is used first in an expression, and then the variable is incremented by one.
+When used as a prefix operator (e.g., ++variable), the variable is incremented by one first, and then the updated value is used in the expression.
+Decrement (--):
+
+Similar to the increment operator, the decrement operator decreases the value of the variable by one.
+When used as a postfix operator (e.g., variable--), the current value of the variable is used first in an expression, and then the variable is decremented by one.
+When used as a prefix operator (e.g., --variable), the variable is decremented by one first, and then the updated value is used in the expression.
+
+//CODE
+
+int x = 5;
+int y = x++; 
+System.out.println("x: " + x // Output: 6
+System.out.println("y: " + y); // Output: 5
+
+int a = 10;
+int b = ++a; 
+System.out.println("a: " + a); // Output: 11
+System.out.println("b: " + b); // Output: 11
+
+int p = 8;
+int q = p--; 
+System.out.println("p: " + p); // Output: 7
+System.out.println("q: " + q); // Output: 8
+
+int m = 12;
+int n = --m; 
+System.out.println("m: " + m); // Output: 11
+System.out.println("n: " + n); // Output: 11
